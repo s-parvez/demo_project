@@ -140,7 +140,7 @@ select {
   font-family: "roboto";
   color: rgb(26, 17, 91);
   font-weight: 450;
-  width: 30%;
+  width: 35%;
 }
 .r p {
   margin: 0;
@@ -166,10 +166,12 @@ p.c {
 }
 .z {
   position: relative;
+  margin-top: 12px;
 }
+
 .d {
-  margin-top: 10px;
-  padding-right: 8px;
+  margin-top: 9px;
+  padding-right: 4px;
   position: absolute;
   top: 0px;
   right: 0%;
@@ -196,4 +198,7 @@ p.c {
 }
 .k:hover .m {
   display: block;
+}
+p.l {
+  padding-top: 70px;
 }
