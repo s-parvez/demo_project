@@ -1,0 +1,199 @@
+*,
+p,
+html,
+body {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+.continer {
+  max-width: 1048px;
+  margin: 0 auto;
+}
+.head {
+  display: flex;
+  gap: 15px;
+  font-family: roboto;
+  color: rgb(28, 24, 90);
+  font-weight: 300;
+}
+
+.e {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+  font-family: "roboto";
+  color: rgb(28, 24, 90);
+  font-weight: 500;
+  padding-bottom: 24px;
+}
+
+.i {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.head img {
+  height: 22px;
+  width: 22px;
+}
+.j {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}
+.k {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}
+.h {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+}
+.logo {
+  height: 40px;
+  width: 90px;
+}
+
+img.small {
+  height: 12px;
+  width: 11px;
+}
+
+.head:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.f {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.g {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+img.ski {
+  width: 16px;
+  height: 16px;
+}
+.input {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  padding-top: 10px;
+}
+
+.button {
+  height: 40px;
+  align-self: end;
+  border-radius: 100rem;
+  background-color: rgb(26, 17, 91);
+  font-family: "roboto";
+  color: white;
+}
+.menu {
+  background-color: rgb(227, 245, 251);
+  padding: 10px;
+  border-radius: 10px;
+}
+input {
+  padding: 7px;
+  font-family: "roboto";
+  font-size: medium;
+}
+select {
+  padding: 7px;
+  font-family: "roboto";
+  font-size: medium;
+}
+.r {
+  background-color: rgb(196, 228, 204);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 25px;
+  padding: 15px;
+  font-family: "roboto";
+  color: rgb(26, 17, 91);
+  font-weight: 450;
+  width: 30%;
+}
+.r p {
+  margin: 0;
+}
+img.s {
+  width: 44px;
+  height: 44px;
+}
+.aarow {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+}
+p.c {
+  padding-top: 10px;
+  font-family: "roboto";
+  font-size: 10px;
+  color: #1a115a;
+  align-items: flex-end;
+  font-size: xx-small;
+}
+.z {
+  position: relative;
+}
+.d {
+  margin-top: 10px;
+  padding-right: 8px;
+  position: absolute;
+  top: 0px;
+  right: 0%;
+}
+.y {
+  padding-right: 25px;
+  width: 100%;
+}
+
+.log {
+  position: absolute;
+  top: 100%;
+  left: 15px;
+  display: none;
+}
+.m {
+  position: absolute;
+  top: 100%;
+  left: 15px;
+  display: none;
+}
+.j:hover .log {
+  display: block;
+}
+.k:hover .m {
+  display: block;
+}
