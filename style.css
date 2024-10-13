@@ -73,7 +73,7 @@ img.small {
   width: 11px;
 }
 
-.head:hover {
+.i:hover {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -82,7 +82,6 @@ img.small {
   display: flex;
   align-items: center;
   gap: 5px;
-  position: relative;
   position: relative;
 }
 
@@ -116,6 +115,10 @@ img.ski {
   background-color: rgb(26, 17, 91);
   font-family: "roboto";
   color: white;
+}
+.button:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 .menu {
   background-color: rgb(227, 245, 251);
@@ -191,6 +194,7 @@ p.chk {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
     rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
     rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  background-color: white;
 }
 .log p {
   padding: 9px;
@@ -206,6 +210,7 @@ p.chk {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
     rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
     rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  background-color: white;
 }
 
 .msg p {
@@ -234,18 +239,21 @@ p.chk {
   top: 100%;
   left: 15px;
   display: none;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
-    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
-    rgba(0, 0, 0, 0.07) 0px 16px 16px;
-  z-index: 999;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: whitesmoke;
+  z-index: 5;
+  width: 150px;
 }
 
 .hday p {
   padding: 5px;
-  width: 100%S;
+  width: 100%;
 }
 .hday p:hover {
   background-color: rgb(227, 245, 251);
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .f:hover .hday {
@@ -257,7 +265,35 @@ p.chk {
   top: 100%;
   left: 15px;
   display: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: whitesmoke;
+  z-index: 5;
+  width: 150px;
 }
+.cru p {
+  padding: 5px;
+  width: 100%;
+}
+.cru p:hover {
+  background-color: rgb(227, 245, 251);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .f:hover .cru {
   display: block;
+}
+.f:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 959px) {
+  .input {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    padding-top: 10px;
+  }
 }
